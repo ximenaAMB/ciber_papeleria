@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Productos rebajas</title>
+ <link rel="preload" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+  <nav>
+    <div class="logo"><img src="imagenes_proyecto/logo.img.png" alt="logo de la empresa">
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="ofertas.html">Ofertas</a></li>
+      <li><a href="suscripciones.html">Subcripciones</a></li>
+       <li><a href="Mas.produstos.html">Más productos</a></li>
+      <li><a href="colaboradores.html">colaboradores</a></li> 
+    </ul>
+      🛒 <span id="contador-carrito">0</span>
+    </button>
+     </nav>
+
+  </header>
+  <br>
+  <br>
+   <section>
+ <video autoplay muted loop id="videofondo">
+        <source src="imagenes_proyecto/5836823-uhd_3840_2160_30fps.mp4">
+    </video>
+    <br>
+    <br>
+ </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <main class="productos-container">
+    <div class="producto">
+      <img src="imagenes_proyecto/ofertaplun.webp" alt="Producto 1" />
+      <h2>Rotulador para resaltar</h2>
+      <p>$144.00</p>
+      <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+    </div>
+    <div class="producto">
+      <img src="imagenes_proyecto/ofertalapiz.jpg" alt="Producto 2" />
+      <h3>Kit de dibujo premiun 2</h3>
+      <p>$200.00</p>
+      <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+    </div>
+    <div class="producto">
+      <img src="imagenes_proyecto/ofertaborradores.jpg" alt="Producto 1" />
+      <h2>Goma de Borrar Migajón Mediana M 40 Caja con 40 Piezas Pelikan</h2>
+      <p>$118.00</p>
+      <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+    </div>
+    <div class="producto">
+      <img src="imagenes_proyecto/ofertalibretas.jpg" alt="Producto 2" />
+      <h2>3 Libretas Golden Coil </h2>
+      <p>$150</p>
+      <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+    </div>
+    <div class="producto">
+      <img src="imagenes_proyecto/ofertanorma.jpg" alt="Producto 1" />
+      <h2>Lápices de Colores Caja con 30 Piezas Largos Redondos Norma</h2>
+      <p>$188.00</p>
+      <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+    </div>
+    <div class="producto">
+      <img src="imagenes_proyecto/ofertahojas.jpg" alt="Producto 2" />
+      <h2>Paquete de hojas de colores</h2>
+      <p>$125.00</p>
+      <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+    </div>
+    <div class="producto">
+      <img src="imagenes_proyecto/ofertalibre.jpg" alt="Producto 1" />
+      <h2>Cuaderno Espiral de 100 Hojas Profesional de Cuadro Grande Colores Swing Doo</h2>
+      <p>$100.00</p>
+      <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+    </div>
+    <div class="producto">
+      <img src="imagenes_proyecto/ofertamochila.jpg" alt="Producto 2" />
+      <h2>Mochilas escolares 3 en 1 para niñas</h2>
+      <p>$350.00</p>
+      <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+    </div>
+    <div class="producto">
+      <img src="imagenes_proyecto/ofertaplumones.jpg" alt="Producto 1" />
+      <h2>Plumones Touch BLUEWARE 48 Pieza</h2>
+      <p>$599.99</p>
+      <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+    </div>
+  </main>
+
+  <script>
+    let contador = 0;
+    function agregarAlCarrito() {
+      contador++;
+      document.getElementById('contador-carrito').textContent = contador;
+    }
+  </script>
+</body>
+<div class="colavoradores">
+        <div class="colavoradores-img">
+            <div class="colavoradores"><img src="imagenes_proyecto/norma.png" alt="">
+            </div>
+             <div class="colavoradores"><img src="imagenes_proyecto/smarty.png" alt="">
+            </div>
+             <div class="colavoradores"><img src="imagenes_proyecto/scribe.png" alt="">
+            </div>
+             <div class="colavoradores"><img src="imagenes_proyecto/alpino.png" alt="">
+            </div>
+             <div class="colavoradores"><img src="imagenes_proyecto/bic.png" alt="">
+            </div>
+
+             <div class="colavoradores"><img src="imagenes_proyecto/crayola.jpeg" alt="">
+            </div>
+             <div class="colavoradores"><img src="imagenes_proyecto/Pelikan.png" alt="">
+            </div>
+             <div class="colavoradores"><img src="imagenes_proyecto/sharpie.png" alt="">
+            </div>
+             <div class="colavoradores"><img src="imagenes_proyecto/maped.png" alt="">
+            </div>
+             <div class="colavoradores"><img src="imagenes_proyecto/paper.png" alt="">
+            </div>
+        </div>
+    </div>
+</html>
